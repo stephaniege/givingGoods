@@ -40,10 +40,15 @@
 	margin: 0 auto;
 }
 
-.daysLeftSec {
+.daysLeftSec, .donorsNumSec {
 	text-align: center;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
 }
 
-.donorsNumSec {
-	text-align: center;
+.requestHeadline, .requestDescription {
+	margin: 15px auto;
+	width: 250px;
+	font-size: 13px;
+	display: block;
 }
