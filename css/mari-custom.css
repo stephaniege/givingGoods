@@ -20,6 +20,7 @@
 .navbar .navbar-brand {
 	padding: 15px 5px;
 	font-size: 18px;
+	padding-bottom: 0px;
 }
 
 .navbar .nav {
@@ -40,7 +41,10 @@
 	margin: 0 auto;
 }
 
-.daysLeftSec, .donorsNumSec {
+.requestDetails {
+}
+
+.requestInfo, .requestContact {
 	text-align: center;
 	border-bottom: 1px solid gray;
 	border-right: 1px solid gray;
@@ -48,7 +52,7 @@
 
 .requestHeadline, .requestDescription {
 	margin: 15px auto;
-	width: 250px;
+	width: 285px;
 	font-size: 13px;
 	display: block;
 }
