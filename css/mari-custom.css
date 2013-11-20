@@ -1,0 +1,19 @@
+.navbar {
+	font-size: 24px;
+	text-align: center;
+}
+
+.navbar .fui-home {
+	float: left;
+	padding: 9px 15px;
+}
+
+.navbar .fui-mail {
+	padding: 9px 15px;
+	float: right;
+}
+
+.navbar .navbar-brand {
+	padding: 15px 15px;
+	margin: 0 auto;
+}
