@@ -1,6 +1,12 @@
 .navbar {
 	font-size: 24px;
+	margin-bottom: 0px;
 	text-align: center;
+}
+
+.container {
+	width: auto !important;
+	padding: 0px !important;
 }
 
 .navbar .fui-home {
@@ -15,5 +21,21 @@
 
 .navbar .navbar-brand {
 	padding: 15px 15px;
-	margin: 0 auto;
+}
+
+.navbar .nav {
+	float: none;
+}
+
+/* customize colors */
+#myNav a {
+	background-color:#eee;
+  	color:#444;
+  	font-weight:700;
+  	font-size:13pt;
+}
+
+.orgPicSec {
+	background-color: red;
+	height: 200px;
 }
