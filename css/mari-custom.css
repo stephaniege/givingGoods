@@ -4,23 +4,30 @@
 	text-align: center;
 }
 
+
+.navbar-default {
+	border-radius: 0px !important;
+	background: #27ae60;
+}
+
 .container {
 	width: auto !important;
 	padding: 0px !important;
 }
 
-.navbar .fui-home {
-	padding: 9px 10px;
+.navbar .fa-home {
+	padding: 8px 9px;
 }
 
-.navbar .fui-mail {
-	padding: 9px 10px;
+.navbar .fa-inbox {
+	padding: 8px 9px;
 }
 
 .navbar .navbar-brand {
 	padding: 15px 5px;
 	font-size: 18px;
 	padding-bottom: 0px;
+	color: white;
 }
 
 .navbar .nav {
@@ -30,8 +37,10 @@
 .orgPicSec {
 	background-color: gray;
 	height: 200px;
-	padding: 1em;
+	padding: 1.60em;
 	text-align: center;
+	background-image:url('../images/requestBG.jpg');
+	color: white;
 }
 
 .orgProfPic {
@@ -44,10 +53,26 @@
 .requestDetails {
 }
 
-.requestInfo, .requestContact {
+.btn {
+	border: 1px solid gray;
+	padding: 1px 12px;
+	margin: 7px;
+}
+
+.btn-default {
+	background: transparent;
+	font-color: red;
+}
+
+.requestInfo {
 	text-align: center;
 	border-bottom: 1px solid gray;
 	border-right: 1px solid gray;
+}
+
+.requestContact {
+	text-align: center;
+	border-bottom: 1px solid gray;
 }
 
 .requestHeadline, .requestDescription {
@@ -55,4 +80,22 @@
 	width: 285px;
 	font-size: 13px;
 	display: block;
+}
+
+.fa-clock-o, .fa-users {
+	font-size: 25px;
+	padding-top: 5px;
+}
+
+.fa {
+	font-size: 20px;
+	color: gray;
+}
+
+.fa-home, .fa-inbox {
+	color: white;
+}
+
+.orgPicSec .thumbnail {
+	background-image: url('../images/requestLogo.jpg');
 }
