@@ -1,5 +1,5 @@
 .navbar {
-	font-size: 24px;
+	font-size: 17px;
 	margin-bottom: 0px;
 	text-align: center;
 }
@@ -10,32 +10,40 @@
 }
 
 .navbar .fui-home {
-	float: left;
-	padding: 9px 15px;
+	padding: 9px 10px;
 }
 
 .navbar .fui-mail {
-	padding: 9px 15px;
-	float: right;
+	padding: 9px 10px;
 }
 
 .navbar .navbar-brand {
-	padding: 15px 15px;
+	padding: 15px 5px;
+	font-size: 18px;
 }
 
 .navbar .nav {
 	float: none;
 }
 
-/* customize colors */
-#myNav a {
-	background-color:#eee;
-  	color:#444;
-  	font-weight:700;
-  	font-size:13pt;
+.orgPicSec {
+	background-color: gray;
+	height: 200px;
+	padding: 1em;
+	text-align: center;
 }
 
-.orgPicSec {
-	background-color: red;
-	height: 200px;
+.orgProfPic {
+	height: 100px;
+	width: 100px;
+	padding-top: 3%;
+	margin: 0 auto;
+}
+
+.daysLeftSec {
+	text-align: center;
+}
+
+.donorsNumSec {
+	text-align: center;
 }
