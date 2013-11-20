@@ -54,9 +54,13 @@
 }
 
 .btn {
-	border: 1px solid gray;
+	border: 1px solid #95a5a6;
 	padding: 1px 12px;
 	margin: 7px;
+}
+
+body {
+	background-color: #ecf0f1;
 }
 
 .btn-default {
@@ -66,13 +70,13 @@
 
 .requestInfo {
 	text-align: center;
-	border-bottom: 1px solid gray;
-	border-right: 1px solid gray;
+	border-bottom: 1px solid #bdc3c7;
+	border-right: 1px solid #bdc3c7;
 }
 
 .requestContact {
 	text-align: center;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #bdc3c7;
 }
 
 .requestHeadline, .requestDescription {
@@ -89,7 +93,7 @@
 
 .fa {
 	font-size: 20px;
-	color: gray;
+	color: #5A5A61;
 }
 
 .fa-home, .fa-inbox {
@@ -98,4 +102,8 @@
 
 .orgPicSec .thumbnail {
 	background-image: url('../images/requestLogo.jpg');
+}
+
+.requestInfoText {
+	color: #292821;
 }
