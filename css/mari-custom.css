@@ -82,8 +82,7 @@ body {
 }
 
 .requestHeadline, .requestDescription {
-	margin: 15px auto;
-	width: 285px;
+	margin: 15px 15px;
 	font-size: 13px;
 	display: block;
 }
