@@ -93,7 +93,7 @@ body {
 
 .fa {
 	font-size: 20px;
-	color: #5A5A61;
+	color: #21211F;
 }
 
 .fa-home, .fa-inbox {
@@ -106,4 +106,10 @@ body {
 
 .requestInfoText {
 	color: #292821;
+	font-weight: bold;
+}
+
+#donateBut {
+	padding: 10px 19px;
+	margin: 0px;
 }
