@@ -17,17 +17,19 @@
 
 .navbar .fa-home {
 	padding: 8px 9px;
+	color: #ecf0f1;
 }
 
 .navbar .fa-inbox {
 	padding: 8px 9px;
+	color: #ecf0f1;
 }
 
 .navbar .navbar-brand {
 	padding: 15px 5px;
 	font-size: 18px;
 	padding-bottom: 0px;
-	color: white;
+	color: #ecf0f1;
 }
 
 .navbar .nav {
@@ -96,9 +98,6 @@ body {
 	color: #21211F;
 }
 
-.fa-home, .fa-inbox {
-	color: white;
-}
 
 .orgPicSec .thumbnail {
 	background-image: url('../images/requestLogo.jpg');
