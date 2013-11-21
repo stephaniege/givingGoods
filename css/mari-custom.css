@@ -73,10 +73,15 @@ body {
 	font-color: red;
 }
 
-.requestInfo {
+.requestInfoCell {
 	text-align: center;
 	border-bottom: 1px solid #bdc3c7;
 	border-right: 1px solid #bdc3c7;
+}
+
+.requestInfoCellLast {
+	text-align: center;
+	border-bottom: 1px solid #bdc3c7;
 }
 
 .requestContact {
@@ -115,6 +120,7 @@ body {
 	padding: 10px 19px;
 	margin: 0px;
 	border: none;
+	border-radius: 0px;
 }
 
 .row {
