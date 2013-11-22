@@ -117,9 +117,22 @@ body {
 	padding-top: 5px;
 }
 
+.donationBoardList > li {
+	height: 50px;
+}
+
+.listPic {
+	height: 45px;
+	width: 45px;
+}
+
 .fa {
 	font-size: 23px;
 	color: #21211F;
+}
+
+.form-group {
+	margin-bottom: 0px;
 }
 
 
