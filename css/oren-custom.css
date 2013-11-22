@@ -16,13 +16,17 @@
 }
 
 .navbar .fa-home {
-	padding: 8px 9px;
+	font-size: 25px;
+	padding: 15px 9px;
 	color: #ecf0f1;
+	float: left;
 }
 
 .navbar .fa-inbox {
-	padding: 8px 9px;
+	font-size: 25px;
+	padding: 15px 9px;
 	color: #ecf0f1;
+	float: right;
 }
 
 .navbar .navbar-brand {
@@ -30,12 +34,13 @@
 	font-size: 18px;
 	padding-bottom: 0px;
 	color: #ecf0f1;
+	float: none;
+	font-weight: bolder;
 }
 
 .navbar .nav {
 	float: none;
-}
-.center {
+}.center {
 	text-align: center;
 	display: inline-block;
 	vertical-align: middle;
@@ -78,4 +83,5 @@ label.center {
 	padding-right: 2px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	background-color: #2ecc71;
 }
