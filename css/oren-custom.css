@@ -1,0 +1,81 @@
+.navbar {
+	font-size: 25px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+
+.navbar-default {
+	border-radius: 0px !important;
+	background: #27ae60;
+}
+
+.container {
+	width: auto !important;
+	padding: 0px !important;
+}
+
+.navbar .fa-home {
+	padding: 8px 9px;
+	color: #ecf0f1;
+}
+
+.navbar .fa-inbox {
+	padding: 8px 9px;
+	color: #ecf0f1;
+}
+
+.navbar .navbar-brand {
+	padding: 15px 5px;
+	font-size: 18px;
+	padding-bottom: 0px;
+	color: #ecf0f1;
+}
+
+.navbar .nav {
+	float: none;
+}
+.center {
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+#calButton {
+	display: inline-block;
+	margin-top: 0;
+}
+#datepicker-01 {
+	display: inline-block;
+}
+label {
+	font-size: 10pt;
+	margin: 0 0;
+}
+.col-xs-6, .col-xs-7, .col-xs-5{
+	padding: 1px 1px;
+}
+input {
+
+}
+label.center {
+	margin-top: 8px;
+}
+.row {
+	padding-right: 2px;
+	padding-left:  2px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.dialog {
+	margin-right: 2px;
+	padding: 0 0;
+}
+.ui-datepicker {
+	left: 60px !important;
+}
+.btn-primary {
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
