@@ -4,6 +4,16 @@
 	text-align: center;
 }
 
+#searchFormGroup {
+	border-radius: 0px;
+	border: 0px;
+}
+
+#searchBut {
+	padding: 12px 15px;
+	margin: 0px -2px;
+	border: 0px;
+}
 
 .navbar-default {
 	border-radius: 0px !important;
@@ -16,12 +26,14 @@
 }
 
 .navbar .fa-home {
+	font-size: 25px;
 	padding: 15px 9px;
 	color: #ecf0f1;
 	float: left;
 }
 
 .navbar .fa-inbox {
+	font-size: 25px;
 	padding: 15px 9px;
 	color: #ecf0f1;
 	float: right;
@@ -33,6 +45,7 @@
 	padding-bottom: 0px;
 	color: #ecf0f1;
 	float: none;
+	font-weight: bolder;
 }
 
 .navbar .nav {
@@ -53,6 +66,10 @@
 	width: 100px;
 	padding-top: 3%;
 	margin: 0 auto;
+}
+
+.orgName {
+	font-weight: bolder;
 }
 
 .requestDetails {
@@ -101,7 +118,7 @@ body {
 }
 
 .fa {
-	font-size: 20px;
+	font-size: 23px;
 	color: #21211F;
 }
 
@@ -121,6 +138,8 @@ body {
 	margin: 0px;
 	border: none;
 	border-radius: 0px;
+	font-weight: bolder;
+	font-size: 25px;
 }
 
 .row {
