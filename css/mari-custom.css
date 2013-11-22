@@ -4,6 +4,14 @@
 	text-align: center;
 }
 
+#searchFormGroup {
+	border-radius: 0px;
+}
+
+#searchBut {
+	padding: 10px 15px;
+	margin: 0px -2px;
+}
 
 .navbar-default {
 	border-radius: 0px !important;
