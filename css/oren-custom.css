@@ -1,3 +1,7 @@
+body {
+	background-color: #ecf0f1;
+}
+
 .navbar {
 	font-size: 25px;
 	margin-bottom: 0px;
@@ -31,7 +35,7 @@
 
 .navbar .navbar-brand {
 	padding: 15px 5px;
-	font-size: 18px;
+	font-size: 14px;
 	padding-bottom: 0px;
 	color: #ecf0f1;
 	float: none;
@@ -84,4 +88,13 @@ label.center {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: #2ecc71;
+}
+
+.donateButRow {
+	margin: 0px;
+	padding: 0px;
+}
+
+#donateBut {
+	border-radius: 0px;
 }
