@@ -7,7 +7,7 @@
 
 .navbar-default {
 	border-radius: 0px !important;
-	background: #9977dd;
+	background: #27ae60;
 }
 
 .container {
@@ -73,12 +73,10 @@
 	padding: 1px 12px;
 	margin-top: 10px;
         font-size: 30px;
-        color: #000000;
-        background-color: #9977dd;
 }
 
 body {
-        background-color: #000000;
+        background-color: #ecf0f1;
 }
 
 .btn-default {
