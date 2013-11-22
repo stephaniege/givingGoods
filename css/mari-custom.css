@@ -123,6 +123,8 @@ body {
 	margin: 0px;
 	border: none;
 	border-radius: 0px;
+	font-weight: bolder;
+	font-size: 20px;
 }
 
 .row {
