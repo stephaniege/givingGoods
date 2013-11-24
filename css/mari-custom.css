@@ -118,12 +118,30 @@ body {
 }
 
 .donationBoardList > li {
-	height: 50px;
+	height: 100px;
+}
+
+.midnightBlue {
+	color: #2c3e50;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.lighterFont {
+	font-weight: lighter;
 }
 
 .listPic {
-	height: 45px;
-	width: 45px;
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-right: 5px;
+}
+
+.listInfo {
+	margin-top: 15px;
 }
 
 .fa {
