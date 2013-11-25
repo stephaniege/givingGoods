@@ -98,3 +98,6 @@ label.center {
 #donateBut {
 	border-radius: 0px;
 }
+input, textarea {
+	font-size: 10pt;
+}
