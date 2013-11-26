@@ -30,11 +30,6 @@
 	padding: 0px !important;
 }
 
-[class^="icon-"],
-[class*=" icon-"]  {
-        text-rendering: auto;
-}
-
 .navbar .fa-home {
 	font-size: 25px;
 	padding: 15px 9px;
