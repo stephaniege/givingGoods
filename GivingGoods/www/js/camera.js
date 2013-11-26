@@ -10,6 +10,7 @@ var pictureSource;   // picture source
     function onDeviceReady() {
         pictureSource=navigator.camera.PictureSourceType;
         destinationType=navigator.camera.DestinationType;
+        alert('123');
     }
 
     // Called when a photo is successfully retrieved
@@ -59,7 +60,7 @@ var pictureSource;   // picture source
       cameraPic.src = "images/list1.jpg";
       // TODO: hide photoButton
       navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 50,
-        destinationType: destinationType.DATA_URL });
+        destinationType: navigator.camera.destinationType.FILE_URI });
       //jnavigator.camera.getPicture(uploadPhoto, null, {sourceType:1,  quality: 50});
     }
 
