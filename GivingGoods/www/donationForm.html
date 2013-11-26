@@ -21,6 +21,12 @@
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
     <![endif]-->
+    <script>
+      function thankuser()
+      {
+        alert("Thanks for your donation! We will be in touch soon.");
+      }
+    </script>
   </head>
   <body>
     <div class="navbar navbar-default">
@@ -84,7 +90,7 @@
         </div>
     </div>  
     <div class="row donateButRow footer">
-      <a id="donateBut" href="dashboard.html" class="btn btn-lg btn-block btn-success">Donate</a>
+      <a id="donateBut" href="dashboard.html" class="btn btn-lg btn-block btn-success" onclick="thankuser();">Donate</a>
     </div>
 
   </body>
